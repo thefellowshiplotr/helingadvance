@@ -1,0 +1,42 @@
+// designer
+.designer {
+  background-color: var(--primary-color);
+  padding-top: 160px;
+  &-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-content {
+    width: 100%;
+    max-width: 616px;
+    color: white;
+  }
+  &-heading {
+    margin-bottom: 30px;
+  }
+  &-desc {
+    margin-bottom: 25px;
+  }
+  &-link {
+    margin-top: 15px;
+    display: inline-block;
+  }
+  &-desc {
+    opacity: 0.7;
+  }
+  @media screen and (max-width: 767.98px) {
+    padding-top: 120px;
+    &-main {
+      flex-direction: column;
+      gap: 70px 0;
+    }
+    &-heading,
+    &-desc {
+      margin-bottom: 20px;
+    }
+    &-link {
+      margin-top: 20px;
+    }
+  }
+}
