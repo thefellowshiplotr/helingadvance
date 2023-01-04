@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Acme&family=Lato:wght@300;400;700&display=swap");
-@import url("icon.css");
+@import url("main.scss");
 *,
 *::before,
 *::after {
@@ -180,9 +180,6 @@ body {
   }
 }
 @media screen and (max-width: 1023.98px) {
-  .header {
-    padding-bottom: 57px;
-  }
   .header-contact {
     margin-left: auto;
     font-size: 18px;
@@ -641,8 +638,8 @@ body {
 /* Breadcrumb 
 ----------------- */
 .breadcrumb-area {
-  background: -o-linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("./img/breadcumb.jpg");
-  background: linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("./img/breadcumb.jpg");
+  background: -o-linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("./images/breadcumb.jpg");
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("./images/breadcumb.jpg");
   height: 11rem;
   width: 100%;
   -webkit-box-sizing: border-box;
@@ -903,8 +900,8 @@ a:active {
 /* Breadcrumb 
 ----------------- */
 .breadcrumb-area {
-  background: -o-linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("./img/breadcumb.jpg");
-  background: linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("./img/breadcumb.jpg");
+  background: -o-linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("./images/breadcumb.jpg");
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("./images/breadcumb.jpg");
   height: 11rem;
   width: 100%;
   -webkit-box-sizing: border-box;
@@ -951,22 +948,22 @@ a:active {
 }
 
 .carousel-item1 {
-  background: -o-linear-gradient(45deg, rgba(35, 35, 35, 0.4), rgba(35, 35, 35, 0.7)), url("./img/slider/1.jpg");
-  background: linear-gradient(45deg, rgba(35, 35, 35, 0.4), rgba(35, 35, 35, 0.7)), url("./img/slider/1.jpg");
+  background: -o-linear-gradient(45deg, rgba(35, 35, 35, 0.4), rgba(35, 35, 35, 0.7)), url("./images/slider/1.jpg");
+  background: linear-gradient(45deg, rgba(35, 35, 35, 0.4), rgba(35, 35, 35, 0.7)), url("./images/slider/1.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .carousel-item2 {
-  background: -o-linear-gradient(45deg, rgba(35, 35, 35, 0.4), rgba(35, 35, 35, 0.7)), url("./img/slider/2.jpg");
-  background: linear-gradient(45deg, rgba(35, 35, 35, 0.4), rgba(35, 35, 35, 0.7)), url("./img/slider/2.jpg");
+  background: -o-linear-gradient(45deg, rgba(35, 35, 35, 0.4), rgba(35, 35, 35, 0.7)), url("./images/slider/2.jpg");
+  background: linear-gradient(45deg, rgba(35, 35, 35, 0.4), rgba(35, 35, 35, 0.7)), url("./images/slider/2.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .carousel-item3 {
-  background: -o-linear-gradient(45deg, rgba(35, 35, 35, 0.4), rgba(35, 35, 35, 0.7)), url("./img/slider/3.jpg");
-  background: linear-gradient(45deg, rgba(35, 35, 35, 0.4), rgba(35, 35, 35, 0.7)), url("./img/slider/3.jpg");
+  background: -o-linear-gradient(45deg, rgba(35, 35, 35, 0.4), rgba(35, 35, 35, 0.7)), url("./images/slider/3.jpg");
+  background: linear-gradient(45deg, rgba(35, 35, 35, 0.4), rgba(35, 35, 35, 0.7)), url("./images/slider/3.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -1621,8 +1618,8 @@ a:active {
   position: relative;
   height: 600px;
   width: 100%;
-  background: -o-linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("img/exclusive/04.jpg");
-  background: linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("img/exclusive/04.jpg");
+  background: -o-linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("images/exclusive/04.jpg");
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("images/exclusive/04.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
